@@ -1,0 +1,9 @@
+properties:
+  name: mockdata_products
+  id: mockdata_products-e5an
+  inputDatasets:
+    - taskId: onboarding_storage-e5ag
+      datasetId: mockdata_products-e5aj
+      name: mockdata_products
+  tableDef:
+    columns: []

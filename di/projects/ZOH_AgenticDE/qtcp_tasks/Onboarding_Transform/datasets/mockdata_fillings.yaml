@@ -1,0 +1,9 @@
+properties:
+  name: mockdata_fillings
+  id: mockdata_fillings-e5am
+  inputDatasets:
+    - taskId: onboarding_storage-e5ag
+      datasetId: mockdata_fillings-e5ai
+      name: mockdata_fillings
+  tableDef:
+    columns: []
