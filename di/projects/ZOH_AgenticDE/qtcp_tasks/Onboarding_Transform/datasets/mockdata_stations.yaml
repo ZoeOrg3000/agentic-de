@@ -1,9 +1,0 @@
-properties:
-  name: mockdata_stations
-  id: mockdata_stations-e5ao
-  inputDatasets:
-    - taskId: onboarding_storage-e5ag
-      datasetId: mockdata_stations-e5ak
-      name: mockdata_stations
-  tableDef:
-    columns: []

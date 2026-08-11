@@ -47,9 +47,7 @@
     "task.onboarding_storage-e5ag.databaseName": "{{task-type.storage.databaseName}}",
     "task.onboarding_storage-e5ag.internalSchema": "",
     "task.onboarding_storage-e5ag.taskSchema": "",
-    "task.onboarding_storage-e5ag.warehouseName": "{{task-type.storage.warehouseName}}",
-    "task.onboarding_transform-e5ah.internalSchema": "",
-    "task.onboarding_transform-e5ah.taskSchema": ""
+    "task.onboarding_storage-e5ag.warehouseName": "{{task-type.storage.warehouseName}}"
   },
   "connectionProperties": {
     "task.onboarding_landing-e5af.sourceConnection": {

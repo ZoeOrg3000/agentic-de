@@ -1,9 +1,0 @@
-rules:
-  - name: RemoveMockdataPrefix
-    actionType: RENAME_TABLE
-    scope:
-      whereTableName: 'mockdata_%'
-    action:
-      renameType: REPLACE_PREFIX
-      oldValue: 'mockdata_'
-      newValue: ''
