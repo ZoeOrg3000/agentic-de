@@ -1,0 +1,17 @@
+properties:
+  id: mockdata_stations-a1c5
+  name: mockdata_stations
+  inputDatasets:
+    - datasetId: mockdata_stations
+      taskId: onboarding_landing-a1c1
+transformations:
+  columnTransformations:
+    - action: KEEP
+      columnName: Stasjonsnummer
+      newColumnName: Stasjonsnummer
+      primaryKeyOrdinal: 1
+      nullable: false
+    - action: KEEP
+      columnName: Stasjon4
+      newColumnName: Stasjon4
+      nullable: false

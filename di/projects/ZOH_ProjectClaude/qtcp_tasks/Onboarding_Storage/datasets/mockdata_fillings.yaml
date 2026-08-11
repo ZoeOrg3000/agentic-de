@@ -1,0 +1,13 @@
+properties:
+  id: mockdata_fillings-a1c3
+  name: mockdata_fillings
+  inputDatasets:
+    - datasetId: mockdata_fillings
+      taskId: onboarding_landing-a1c1
+transformations:
+  columnTransformations:
+    - action: KEEP
+      columnName: id
+      newColumnName: id
+      primaryKeyOrdinal: 1
+      nullable: false

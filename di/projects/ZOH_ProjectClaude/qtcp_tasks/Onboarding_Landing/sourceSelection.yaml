@@ -1,0 +1,11 @@
+sourceConnection: '{{task.onboarding_landing-a1c1.sourceConnection}}'
+explicitlySelected:
+  - name: mockdata_fillings
+    schema: '{{task.onboarding_landing-a1c1:null$_$zoh_mock_data.schema}}'
+    type: TABLE
+  - name: mockdata_products
+    schema: '{{task.onboarding_landing-a1c1:null$_$zoh_mock_data.schema}}'
+    type: TABLE
+  - name: mockdata_stations
+    schema: '{{task.onboarding_landing-a1c1:null$_$zoh_mock_data.schema}}'
+    type: TABLE

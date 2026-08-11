@@ -1,0 +1,11 @@
+properties:
+  name: Onboarding_Landing
+  id: onboarding_landing-a1c1
+  type: LANDING
+settings:
+  landingDwSettings:
+    landingArtifactsLocation:
+      dataAssetSchema: '{{task.onboarding_landing-a1c1.taskSchema}}'
+      database: '{{task.onboarding_landing-a1c1.databaseName}}'
+  landingAppRuntime:
+    sourceCdcFetchIntervalMinutes: 60
