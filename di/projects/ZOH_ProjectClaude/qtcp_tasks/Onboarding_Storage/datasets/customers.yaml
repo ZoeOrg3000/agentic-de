@@ -1,0 +1,6 @@
+properties:
+  id: customers-a1d2
+  name: customers
+  inputDatasets:
+    - datasetId: customers
+      taskId: onboarding_landing-a1c1

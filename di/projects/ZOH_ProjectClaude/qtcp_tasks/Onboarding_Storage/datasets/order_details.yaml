@@ -1,0 +1,6 @@
+properties:
+  id: order_details-a1d4
+  name: order_details
+  inputDatasets:
+    - datasetId: order_details
+      taskId: onboarding_landing-a1c1

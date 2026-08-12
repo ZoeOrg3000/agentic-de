@@ -1,11 +1,23 @@
 sourceConnection: '{{task.onboarding_landing-a1c1.sourceConnection}}'
 explicitlySelected:
-  - name: mockdata_fillings
-    schema: '{{task.onboarding_landing-a1c1:null$_$zoh_mock_data.schema}}'
+  - name: categories
+    schema: '{{task.onboarding_landing-a1c1:null$_$northwind.schema}}'
     type: TABLE
-  - name: mockdata_products
-    schema: '{{task.onboarding_landing-a1c1:null$_$zoh_mock_data.schema}}'
+  - name: customers
+    schema: '{{task.onboarding_landing-a1c1:null$_$northwind.schema}}'
     type: TABLE
-  - name: mockdata_stations
-    schema: '{{task.onboarding_landing-a1c1:null$_$zoh_mock_data.schema}}'
+  - name: orders
+    schema: '{{task.onboarding_landing-a1c1:null$_$northwind.schema}}'
+    type: TABLE
+  - name: order_details
+    schema: '{{task.onboarding_landing-a1c1:null$_$northwind.schema}}'
+    type: TABLE
+  - name: products
+    schema: '{{task.onboarding_landing-a1c1:null$_$northwind.schema}}'
+    type: TABLE
+  - name: suppliers
+    schema: '{{task.onboarding_landing-a1c1:null$_$northwind.schema}}'
+    type: TABLE
+  - name: shippers
+    schema: '{{task.onboarding_landing-a1c1:null$_$northwind.schema}}'
     type: TABLE

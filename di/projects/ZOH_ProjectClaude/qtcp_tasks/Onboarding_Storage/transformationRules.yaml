@@ -1,9 +1,7 @@
 rules:
-  - name: RemoveMockdataPrefix
+  - name: UppercaseTableNames
     actionType: RENAME_TABLE
     scope:
-      whereTableName: 'mockdata_%'
+      whereTableName: '%'
     action:
-      renameType: REPLACE_PREFIX
-      oldValue: 'mockdata_'
-      newValue: ''
+      renameType: TO_UPPER
