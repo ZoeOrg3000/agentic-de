@@ -1,0 +1,12 @@
+properties:
+  name: Onboarding_Transform
+  id: onboarding_transform-a1f1
+  type: TRANSFORM
+settings:
+  artifactsLocation:
+    internalSchema: '{{task.onboarding_transform-a1f1.internalSchema}}'
+    taskSchema: '{{task.onboarding_transform-a1f1.taskSchema}}'
+    databaseName: '{{task.onboarding_transform-a1f1.databaseName}}'
+  taskRuntime:
+    warehouseSelection:
+      warehouseName: '{{task.onboarding_transform-a1f1.warehouseName}}'

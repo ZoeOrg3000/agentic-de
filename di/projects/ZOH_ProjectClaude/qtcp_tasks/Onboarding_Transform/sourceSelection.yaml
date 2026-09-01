@@ -1,0 +1,13 @@
+explicitlySelected:
+  - name: orders
+    sourceTask: onboarding_storage-a1c2
+    type: TABLE
+    sourceTableId: orders-a1d3
+  - name: order_details
+    sourceTask: onboarding_storage-a1c2
+    type: TABLE
+    sourceTableId: order_details-a1d4
+  - name: customers
+    sourceTask: onboarding_storage-a1c2
+    type: TABLE
+    sourceTableId: customers-a1d2

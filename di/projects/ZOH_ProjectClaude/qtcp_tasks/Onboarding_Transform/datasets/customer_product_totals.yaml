@@ -1,0 +1,33 @@
+properties:
+  name: customer_product_totals
+  id: customer_product_totals-a1f2
+  inputDatasets:
+    - taskId: onboarding_storage-a1c2
+      datasetId: orders-a1d3
+      name: orders
+    - taskId: onboarding_storage-a1c2
+      datasetId: order_details-a1d4
+      name: order_details
+    - taskId: onboarding_storage-a1c2
+      datasetId: customers-a1d2
+      name: customers
+  customDatasetSettings:
+    customSql:
+      expressionStatement: |
+        SELECT
+          c.customer_id AS customer_id,
+          c.company_name AS company_name,
+          DATE_TRUNC('MONTH', o.order_date) AS order_month,
+          SUM(od.quantity) AS total_products
+        FROM ${orders} AS o
+        JOIN ${order_details} AS od ON o.order_id = od.order_id
+        JOIN ${customers} AS c ON o.customer_id = c.customer_id
+        GROUP BY c.customer_id, c.company_name, DATE_TRUNC('MONTH', o.order_date)
+      alias:
+        - name: orders
+          value: '{{ref(project.current.projectId)}}$_$onboarding_storage-a1c2$_$orders-a1d3'
+        - name: order_details
+          value: '{{ref(project.current.projectId)}}$_$onboarding_storage-a1c2$_$order_details-a1d4'
+        - name: customers
+          value: '{{ref(project.current.projectId)}}$_$onboarding_storage-a1c2$_$customers-a1d2'
+    incremental: false
