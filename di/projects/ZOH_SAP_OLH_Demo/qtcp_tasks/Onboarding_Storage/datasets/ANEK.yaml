@@ -1,0 +1,6 @@
+properties:
+  id: anek-zylp
+  name: ANEK
+  inputDatasets:
+    - datasetId: anek
+      taskId: onboarding_lake_landing-zylm

@@ -1,0 +1,6 @@
+properties:
+  id: anea-zylo
+  name: ANEA
+  inputDatasets:
+    - datasetId: anea
+      taskId: onboarding_lake_landing-zylm

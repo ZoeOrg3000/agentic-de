@@ -1,0 +1,9 @@
+properties:
+  id: anek
+  name: ANEK
+transformations:
+  newTableName: Document_Header_Asset_Posting__ANEK
+sourceTable:
+  schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+  type: TABLE
+  name: ANEK

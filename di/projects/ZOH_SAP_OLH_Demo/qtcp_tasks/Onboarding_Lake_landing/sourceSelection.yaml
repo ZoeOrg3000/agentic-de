@@ -1,0 +1,8 @@
+sourceConnection: '{{task.onboarding_lake_landing-zylm.sourceConnection}}'
+explicitlySelected:
+  - name: ANEA
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: ANEK
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE

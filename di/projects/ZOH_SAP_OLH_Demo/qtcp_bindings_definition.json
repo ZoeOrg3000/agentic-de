@@ -1,0 +1,19 @@
+{
+  "variables": {
+    "cloudStagingConnection": "",
+    "platformConnection": "",
+    "projectName": "",
+    "project.current.prefixSchema": "",
+    "task.onboarding_lake_landing-zylm.sourceConnection": "",
+    "task.onboarding_lake_landing-zylm.taskSchema": "",
+    "task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema": "",
+    "task.onboarding_storage-zyln.internalSchema": "",
+    "task.onboarding_storage-zyln.lakehouseCluster": "",
+    "task.onboarding_storage-zyln.taskSchema": ""
+  },
+  "connectionProperties": {
+    "task.onboarding_lake_landing-zylm.sourceConnection": {
+      "type": "repsrc_saphana"
+    }
+  }
+}

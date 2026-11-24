@@ -1,0 +1,9 @@
+properties:
+  id: anea
+  name: ANEA
+transformations:
+  newTableName: Asset_Line_Items_for_Proportional_Values__ANEA
+sourceTable:
+  schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+  type: TABLE
+  name: ANEA

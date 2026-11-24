@@ -1,0 +1,10 @@
+properties:
+  name: Onboarding_Storage
+  id: onboarding_storage-zyln
+  type: LAKEHOUSE_STORAGE
+settings:
+  artifactsLocation:
+    internalSchema: '{{task.onboarding_storage-zyln.internalSchema}}'
+    taskSchema: '{{task.onboarding_storage-zyln.taskSchema}}'
+  taskRuntime:
+    lakehouseCluster: '{{task.onboarding_storage-zyln.lakehouseCluster}}'
