@@ -1,0 +1,20 @@
+properties:
+  id: acdoca
+  name: ACDOCA
+transformations:
+  filter:
+    expressionStatement: ${RCLNT}='100' and ${RLDNR}='0L' and ${BUDAT}<>'00000000'
+    alias:
+      - name: RCLNT
+        value: rclnt
+      - name: RLDNR
+        value: rldnr
+      - name: BUDAT
+        value: budat
+sourceTable:
+  schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+  type: TABLE
+  name: ACDOCA
+modifiedByAi:
+  lastUpdated: '2026-11-24T16:58:29.000Z'
+  model: Claude Opus 5

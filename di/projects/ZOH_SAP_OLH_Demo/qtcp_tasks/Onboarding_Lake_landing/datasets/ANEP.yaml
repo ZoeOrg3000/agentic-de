@@ -1,0 +1,16 @@
+properties:
+  id: anep
+  name: ANEP
+transformations:
+  filter:
+    expressionStatement: ${MANDT}='100'
+    alias:
+      - name: MANDT
+        value: mandt
+sourceTable:
+  schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+  type: TABLE
+  name: ANEP
+modifiedByAi:
+  lastUpdated: '2026-11-24T16:58:29.000Z'
+  model: Claude Opus 5

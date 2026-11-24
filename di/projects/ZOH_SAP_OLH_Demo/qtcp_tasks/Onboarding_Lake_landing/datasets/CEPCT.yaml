@@ -1,0 +1,20 @@
+properties:
+  id: cepct
+  name: CEPCT
+transformations:
+  filter:
+    expressionStatement: ${MANDT}='100' AND ${SPRAS}='E' AND ${DATBI}='99991231'
+    alias:
+      - name: MANDT
+        value: mandt
+      - name: SPRAS
+        value: spras
+      - name: DATBI
+        value: datbi
+sourceTable:
+  schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+  type: TABLE
+  name: CEPCT
+modifiedByAi:
+  lastUpdated: '2026-11-24T16:58:29.000Z'
+  model: Claude Opus 5

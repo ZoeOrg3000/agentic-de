@@ -1,8 +1,131 @@
 sourceConnection: '{{task.onboarding_lake_landing-zylm.sourceConnection}}'
 explicitlySelected:
+  - name: ACDOCA
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: BKPF
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: SKA1
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: SKB1
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: LFA1
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: LFB1
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: KNA1
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: KNB1
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: ANLA
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: ANLC
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: ANEP
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: CSKS
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: CSKT
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: FAGLFLEXA
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: CSKA
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: T001
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: T001W
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: T880
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: CEPC
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: CEPCT
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: TKA01
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: T882
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: SKAT
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: ANLB
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: ANLH
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: ANLZ
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
   - name: ANEA
     schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
     type: TABLE
   - name: ANEK
     schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
     type: TABLE
+  - name: ANLP
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: T093B
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: TABA
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: ANKT
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: T090
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: T095
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: T093T
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: FAAT_DOC_IT
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: T093S
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: TKA02
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: COEP
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: COEJ
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: CSKB
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+  - name: CSKU
+    schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+    type: TABLE
+modifiedByAi:
+  lastUpdated: '2026-11-24T16:58:29.000Z'
+  model: Claude Opus 5

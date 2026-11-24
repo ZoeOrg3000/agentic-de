@@ -2,8 +2,15 @@ properties:
   id: anek
   name: ANEK
 transformations:
-  newTableName: Document_Header_Asset_Posting__ANEK
+  filter:
+    expressionStatement: ${MANDT}='100'
+    alias:
+      - name: MANDT
+        value: mandt
 sourceTable:
   schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
   type: TABLE
   name: ANEK
+modifiedByAi:
+  lastUpdated: '2026-11-24T16:58:29.000Z'
+  model: Claude Opus 5

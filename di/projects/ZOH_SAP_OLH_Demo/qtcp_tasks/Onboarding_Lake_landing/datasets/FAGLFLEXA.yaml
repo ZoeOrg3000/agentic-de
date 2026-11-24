@@ -1,0 +1,16 @@
+properties:
+  id: faglflexa
+  name: FAGLFLEXA
+transformations:
+  filter:
+    expressionStatement: ${RCLNT}='100'
+    alias:
+      - name: RCLNT
+        value: rclnt
+sourceTable:
+  schema: '{{task.onboarding_lake_landing-zylm:null$_$SAPHANADB.schema}}'
+  type: TABLE
+  name: FAGLFLEXA
+modifiedByAi:
+  lastUpdated: '2026-11-24T16:58:29.000Z'
+  model: Claude Opus 5
