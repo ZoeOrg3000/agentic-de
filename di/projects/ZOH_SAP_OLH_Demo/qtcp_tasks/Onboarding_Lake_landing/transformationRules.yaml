@@ -9,7 +9,7 @@ rules:
         CSKB: Cost_Elements_Data_Dependent_on_Controlling_Area__CSKB
         CSKU: Cost_Element_Texts__CSKU
         COEP: CO_Object_Line_Items_by_Period__COEP
-        COEJ: CO_Object_Line Items_by_Fiscal_Year__COEJ
+        COEJ: CO_Object_Line_Items_by_Fiscal_Year__COEJ
         T093S: Value_Field_Names_for_Depreciation_Areas__T093S
         FAAT_DOC_IT: Statistical_Line_Item_in_Asset_Accounting__FAAT_DOC_IT
         T093T: Names_for_real_and_derived_depreciation_areas__T093T
@@ -3218,5 +3218,5 @@ rules:
         DEAKT: Deactivation_Date__DEAKT
         EIGEN: Cost_element_attributes__EIGEN
 modifiedByAi:
-  lastUpdated: '2026-11-24T16:58:29.000Z'
+  lastUpdated: '2026-11-25T10:10:30.000Z'
   model: Claude Opus 5
